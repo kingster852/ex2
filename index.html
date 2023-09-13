@@ -6,37 +6,98 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Order summary card</title>
+  <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- Feel free to remove these styles or customise in your own stylesheet ðŸ‘ -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    
+    :root {
+    --white       : hsl(0, 0%, 100%); 
+    --lightGray   : hsl(212, 45%, 89%); 
+    --grayishBlue : hsl(220, 15%, 55%); 
+    --darkBlue    : hsl(218, 44%, 22%); 
+    }
+    body, html{
+      font-family: "Outfit", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      background-color: var(--lightGray);
+      margin: 0;
+      align-items: center;
+      padding: 10px;
+      justify-content: center;
+      text-align: center;
+    }
+    img{
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .bold   {font-weight: 700;}
+    #frame {
+      max-width:300px;
+      background-color: var(--white);
+      border-radius: 15px; 
+      padding: 15px;
+      position: absolute;
+      top: 50%;
+      //left: 50%;
+      //transform: translateX(-50%);
+      transform: translateY(-50%);
+    }
+    h3 {color: var(--darkBlue);}
+    p {color: var(--grayishBlue);}
+    .largeCenter{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+<!--
+White: hsl(0, 0%, 100%)
+Light gray: hsl(212, 45%, 89%)
+Grayish blue: hsl(220, 15%, 55%)
+Dark blue: hsl(218, 44%, 22%)
+Typography
+
+Body Copy
+
+Font size (paragraph): 15px
+Font
+
+Family: "Outfit"
+Weights: 400, 700
+-->
+
   </style>
 </head>
 <body>
-  <img src = "docs/assets/icon-music.svg" alt="Icon Music SVG"/>
-  <img src = "docs/assets/illustration-hero.svg" alt="b"/>
-  <img src = "docs/assets/pattern-background-desktop.svg" alt="c"/>
-  <img src = "docs/assets/pattern-background-mobile.svg" alt="d"/>
- 
-  
-  Order Summary
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+  <!--Improve your front-end skills by building projects
 
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">kingster852</a>.
+  </div>
+  -->
+
+    
+  <!--<img src=â€/docs/assets/image-qr-code.pngâ€> 
+  </img>-->
+  <div class="largeCenter">
+  <div id="frame"> 
+  <img src="https://github.com/kingster852/ex1/raw/main/docs/assets/image-qr-code.png">
+  </img>
+  <h3>
+    Improve your front-end skills by building projects
+    </h3>
+  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  </div>
   </div>
 </body>
 </html>
