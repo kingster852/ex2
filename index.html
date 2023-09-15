@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head id="app">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
@@ -22,7 +22,7 @@
     --desaturatedBlue: hsl(224, 23%, 55%);
     --darkBlue2      : hsl(223, 47%, 23%);
     
-    --url: "http://github.com/kingster852/ex1/raw/main/"
+    //--url: "http://github.com/kingster852/ex1/raw/main/"
   
     }
     
@@ -35,7 +35,7 @@
       padding: 0px;
       justify-content: center;
       text-align: center;
-      background-image: url(--url+"docs/assets/pattern-background-desktop.svg");
+      background-image: url({{url1}}+"docs/assets/pattern-background-desktop.svg");
       background-repeat: no-repeat;
       background-size: auto 100%;
       background-position: center;
@@ -75,7 +75,7 @@
 </head>
 <body>
 
-  <div id="app" class="largeCenter">
+  <div class="largeCenter">
     
     <div id="frame"> 
     <img src="docs/assets/illustration-hero.svg">
