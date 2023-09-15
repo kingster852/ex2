@@ -22,8 +22,6 @@
     --desaturatedBlue: hsl(224, 23%, 55%);
     --darkBlue2      : hsl(223, 47%, 23%);
     
-    //--url: "http://github.com/kingster852/ex1/raw/main/"
-  
     }
     
     body {
@@ -69,6 +67,9 @@
     }
     .option {
       display: flex;
+    .optionImage img{
+      width: 100%;
+      height: 30px;
     }
     
   </style>
@@ -83,12 +84,12 @@
     <h3>Order Summary</h3>
     <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
     <div class="option">
-      <img class="optionImage" src={{url1+"docs/assets/icon-music.svg"}} >
+      <img class="optionImage" src="docs/assets/icon-music.svg">
       <div>Annual Plan $59.99/year</div>
       <a>Change</a>
     </div>
     <button>Proceed to Payment</button>
-    <a>Cancel Order</a>
+    <a>Cancel Order{{message}}</a>
     </div>
   </div>
 </body>
