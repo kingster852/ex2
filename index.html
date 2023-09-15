@@ -72,7 +72,7 @@
 </head>
 <body>
 
-  <div class="largeCenter">
+  <div id="app" class="largeCenter">
     
     <div id="frame"> 
     <img src="docs/assets/illustration-hero.svg" />
@@ -90,3 +90,19 @@
   </div>
 </body>
 </html>
+
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<script>
+  const app = Vue.createApp({
+    data() {
+      return {
+        message: "Hello World!",
+        vueClass: "pinkBG",
+        url: ""
+      }
+    }
+  })
+  app.mount('#app')
+</script>
