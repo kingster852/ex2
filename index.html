@@ -1,98 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head id="app">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0/>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>    
+    <div class="frame">
+    <img class="image1" src="https://github.com/kingster852/ex2/raw/main/docs/assets/illustration-hero.svg">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="docs/assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order Summary Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet ‘ -->
-  <style>
-    :root {
-    --white       : hsl(0, 0%, 100%); 
-    --lightGray   : hsl(212, 45%, 89%); 
-    --grayishBlue : hsl(220, 15%, 55%); 
-    --darkBlue    : hsl(218, 44%, 22%); 
-    
-    --paleBlue       : hsl(225, 100%, 94%);
-    --brightBlue     : hsl(245, 75%, 52%);
-    --veryPaleBlue   : hsl(225, 100%, 98%);
-    --desaturatedBlue: hsl(224, 23%, 55%);
-    --darkBlue2      : hsl(223, 47%, 23%);
-    
-    }
-    
-    body {
-      font-family: "Red Hat Display", "Outfit", sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-      margin: 0;
-      align-items: center;
-      padding: 0px;
-      justify-content: center;
-      text-align: center;
-      background-image: url({{url1}}+"docs/assets/pattern-background-desktop.svg");
-      background-repeat: no-repeat;
-      background-size: auto 100%;
-      background-position: center;
-    }
-    
-    .optionImage {
-      width: auto;
-      height: 20px
-      border-radius: 0px;
-    }
-    h3 {color: var(--darkBlue);}
-    p {color: var(--grayishBlue);}
-    .largeCenter{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;   
-    }
-    .bold     {font-weight: 700;}
-    .veryBold {font-weight: 900;}
-    #frame {
-      max-width:300px;
-      background-color: var(--white);
-      border-radius: 15px; 
-      padding: 0px;
-      position: absolute;
-      top: 50%;
-      //left: 50%;
-      //transform: translateX(-50%);
-      transform: translateY(-50%);
-    }
-    .option {
-      display: flex;
-    .optionImage img{
-      width: 100%;
-      height: 30px;
-    }
-    
-  </style>
-</head>
-<body>
-
-  <div class="largeCenter">
-    
-    <div id="frame"> 
-    <img src="docs/assets/illustration-hero.svg">
-  
     <h3>Order Summary</h3>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-    <div class="option">
-      <img class="optionImage" src="docs/assets/icon-music.svg">
-      <div>Annual Plan $59.99/year</div>
+    <p>
+      <div class="option1">
+      <div class="option1-1">
+        <img
+          class="image2"
+          src="https://github.com/kingster852/ex2/raw/main/docs/assets/icon-music.svg"
+        />
+        </div>
+      <div class="option1-2">
+      <button>Annual Plan $59.99/year</button>
+      </div>
+   
       <a>Change</a>
     </div>
-    <button>Proceed to Payment</button>
-    <a>Cancel Order{{message}}</a>
+ 
+
+        <div class="text1">Proceed to Payment</div>
+        <div class="text2">Cancel Order</div>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
 
 
