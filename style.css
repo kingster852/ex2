@@ -38,6 +38,7 @@ p {
   max-width: 300px;
   background-color: var(--white);
   border-radius: 15px;
+  border: 1px solid;
   padding: 0px;
   position: absolute;
   top: 50%;
@@ -45,8 +46,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  /*justify-content: center;
+  text-align: center;*/
 }
 .option1 {
   display: flex;
