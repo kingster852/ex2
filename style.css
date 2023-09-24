@@ -82,6 +82,8 @@ p {
   height: 50px;
 }
 .text1 {
+  border: 1px solid;
 }
-.text2 {  
+.text2 {
+  border: 1px solid;
 }
