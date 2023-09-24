@@ -83,7 +83,9 @@ p {
 }
 .text1 {
   border: 1px solid;
-  background-color: var(--desaturatedBlue);
+  width: 150px;
+  border-radius: 10px;
+  background-color: var(--brightBlue);
 }
 .text2 {
   border: 1px solid;
