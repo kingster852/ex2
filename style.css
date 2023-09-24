@@ -69,7 +69,8 @@ p {
 }
 .option1-2{
   border: 1px solid;
-  padding: 50px;
+  text-justify: center;
+  text-align: center;
 }
 .image1 {
   max-width: 300px;
