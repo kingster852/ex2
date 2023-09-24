@@ -16,8 +16,8 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: var(--paleBlue);
-  //background-image: url("https://github.com/kingster852/ex2/raw/main/docs/assets/pattern-background-mobile.svg");
+  //background-color: var(--paleBlue);
+  background-image: url("https://github.com/kingster852/ex2/raw/main/docs/assets/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center;
