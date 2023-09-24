@@ -47,8 +47,6 @@ p {
   transform: translateY(-50%);
   
 }
-
-
 .option1 {
   display: flex;
   background-color: white;
@@ -58,19 +56,20 @@ p {
   padding: 5px;
   justify-content: space-evenly;
 }
+.option1-1{}
+.option1-2{}
+.option1-3{}
+.option1-4{}
 .image1 {
   max-width: 300px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-
 }
 .image2 {
-width: auto;
-height: 50px;
+  width: auto;
+  height: 50px;
 }
 .text1 {
-
 }
-.text2 {
-  
+.text2 {  
 }
