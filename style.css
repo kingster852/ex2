@@ -93,6 +93,7 @@ p {
   width: 220px;
   border-radius: 10px;
   background-color: var(--brightBlue);
+  padding: 15px;
 }
 .text2 {
   border: 1px solid;
