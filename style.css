@@ -24,9 +24,11 @@ body {
 }
 h3 {
   color: var(--darkBlue);
+  border: 1px solid;
 }
 p {
   color: var(--desaturatedBlue);
+  border: 1px solid;
 }
 .bold {
   font-weight: 700;
@@ -35,7 +37,8 @@ p {
   font-weight: 900;
 }
 .frame {
-  max-width: 300px;
+  width: 300px;
+  height: 500px;
   background-color: var(--white);
   border-radius: 15px;
   border: 1px solid;
