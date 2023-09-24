@@ -56,7 +56,7 @@ p {
 .option1-1{
   border: 1px solid;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 .option1-1-1{
   border: 1px solid;
