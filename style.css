@@ -52,7 +52,7 @@ p {
 .option1 {
   display: flex;
   background-color: white;
-  /*max-width: 200px;*/
+  width: 220px;
   border-radius: 15px;
   align-content: center;
   padding: 5px;
