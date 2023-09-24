@@ -42,6 +42,8 @@ p {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
 }
 .option1 {
   display: flex;
