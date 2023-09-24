@@ -5,7 +5,6 @@
   --desaturatedBlue: hsl(224, 23%, 55%);
   --darkBlue2: hsl(223, 47%, 23%);
 }
-
 body {
   font-family: 'Red Hat Display', 'Outfit', sans-serif;
   font-size: 16px;
@@ -23,15 +22,12 @@ body {
   /*background-position: center;
   */
 }
-
-
 h3 {
   color: var(--darkBlue);
 }
 p {
   color: var(--grayishBlue);
 }
-
 .bold {
   font-weight: 700;
 }
