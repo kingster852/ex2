@@ -18,9 +18,9 @@ body {
   /*background-color: var(--paleBlue);*/
   background-image: url("https://github.com/kingster852/ex2/raw/main/docs/assets/pattern-background-desktop.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  /*background-position: center;
-  */
+  background-height: 100%;
+  background-position: center;
+  
 }
 h3 {
   color: var(--darkBlue);
