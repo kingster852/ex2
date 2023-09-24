@@ -55,7 +55,7 @@ p {
   width: 220px;
   border-radius: 15px;
   align-content: center;
-  padding: 5px;
+  padding: 15px;
   justify-content: space-evenly;
   border: 1px solid;
 }
@@ -91,9 +91,9 @@ p {
   height: 50px;
 }
 .text1 {
-  border: 1px solid;
+  /*border: 1px solid;*/
   width: 220px;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: var(--brightBlue);
   padding: 15px;
 }
