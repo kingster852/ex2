@@ -46,7 +46,6 @@ p {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  
 }
 .option1 {
   display: flex;
@@ -56,12 +55,23 @@ p {
   align-content: center;
   padding: 5px;
   justify-content: space-evenly;
+  border: 1px solid;
 }
-.option1-1{}
-.option1-1-1{}
-.option1-1-2-1{}
-.option1-1-2-2{}
-.option1-2{}
+.option1-1{
+  border: 1px solid;
+}
+.option1-1-1{
+  border: 1px solid;
+}
+.option1-1-2-1{
+  border: 1px solid;
+}
+.option1-1-2-2{
+  border: 1px solid;
+}
+.option1-2{
+  border: 1px solid;
+}
 .image1 {
   max-width: 300px;
   border-top-left-radius: 15px;
