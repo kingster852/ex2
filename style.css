@@ -29,6 +29,7 @@ h3 {
 p {
   color: var(--desaturatedBlue);
   border: 1px solid;
+  width: 220px;
 }
 .bold {
   font-weight: 700;
@@ -72,17 +73,18 @@ p {
 }
 .option1-1-2-1{
   border: 1px solid;
-  background-color: var(--paleBlue);
+  /*background-color: var(--paleBlue);*/
 }
 .option1-1-2-2{
   border: 1px solid;
-   background-color: var(--brightBlue);
+  /*background-color: var(--brightBlue);*/
+  color: var(--desaturatedBlue);
 }
 .option1-2{
   border: 1px solid;
   display: flex;
   align-content: center;
-  background-color: var(--darkBlue2);
+  /*background-color: var(--darkBlue2);*/
 }
 .image1 {
   max-width: 300px;
