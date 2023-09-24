@@ -19,8 +19,9 @@ body {
   /*background-color: var(--paleBlue);*/
   background-image: url("https://github.com/kingster852/ex2/raw/main/docs/assets/pattern-background-mobile.svg");
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  /*background-size: auto 100%;
   background-position: center;
+  */
 }
 
 
