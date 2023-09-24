@@ -55,7 +55,8 @@ p {
 }
 .option1-1{
   border: 1px solid;
-  display: inline-block;
+  display: flex;
+  align-items: flex-start;
 }
 .option1-1-1{
   border: 1px solid;
