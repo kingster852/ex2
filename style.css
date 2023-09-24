@@ -69,8 +69,8 @@ p {
 }
 .option1-2{
   border: 1px solid;
-  align-items: center;
-  text-align: center;
+  display: flex;
+  align-content: center;
 }
 .image1 {
   max-width: 300px;
