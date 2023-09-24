@@ -69,7 +69,7 @@ p {
 }
 .option1-2{
   border: 1px solid;
-  margin: auto;
+  padding: auto;
 }
 .image1 {
   max-width: 300px;
