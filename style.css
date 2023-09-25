@@ -59,7 +59,7 @@ p {
   background-color: var(--veryPaleBlue);
   width: 220px;
   border-radius: 15px;
-  align-content: center;
+  align-items: center;
   padding: 15px;
   justify-content: space-evenly;
   border: 1px solid;
