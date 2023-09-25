@@ -25,6 +25,7 @@ body {
 h3 {
   color: var(--darkBlue);
   border: 1px solid;
+  padding: 15px;
 }
 p {
   color: var(--desaturatedBlue);
