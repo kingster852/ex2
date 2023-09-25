@@ -45,7 +45,7 @@ p {
 .frame {
   width: 300px;
   height: auto;
-  background-color: var(--white);
+  background-color: white;
   border-radius: 15px;
   border: 1px solid;
   padding: 0px;
