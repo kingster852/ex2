@@ -82,13 +82,15 @@ p {
   /*border: 1px solid;*/
   /*background-color: var(--paleBlue);*/
   color: var(--darkBlue2);
-  font-size: 14px;
+  font-size: 12px;
+  margin: 5px;
 }
 .option1-1-2-2{
   /*border: 1px solid;*/
   /*background-color: var(--brightBlue);*/
   color: var(--desaturatedBlue);
-  font-size: 14px;
+  font-size: 12px;
+  margin: 5px;
 }
 .option1-2{
   /*border: 1px solid;*/
