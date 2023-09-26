@@ -96,6 +96,10 @@ p {
   align-content: center;
   /*background-color: var(--darkBlue2);*/
 }
+a {
+  color: blue; /* Specify the desired color for visited links */
+  text-decoration: none; /* Remove underline or other decorations */
+}
 a:visited {
   color: blue; /* Specify the desired color for visited links */
   text-decoration: none; /* Remove underline or other decorations */
