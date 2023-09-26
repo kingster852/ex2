@@ -95,6 +95,10 @@ p {
   align-content: center;
   /*background-color: var(--darkBlue2);*/
 }
+a:visited {
+  color: blue; /* Specify the desired color for visited links */
+  text-decoration: none; /* Remove underline or other decorations */
+}
 .image1 {
   max-width: 300px;
   border-top-left-radius: 15px;
